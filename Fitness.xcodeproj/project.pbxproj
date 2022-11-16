@@ -12,6 +12,16 @@
 		DECD29E92924E34300A3A4B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD29E82924E34300A3A4B8 /* SceneDelegate.swift */; };
 		DECD29F02924E34400A3A4B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECD29EF2924E34400A3A4B8 /* Assets.xcassets */; };
 		DECD29F32924E34400A3A4B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECD29F12924E34400A3A4B8 /* LaunchScreen.storyboard */; };
+		DECD29FC2924E9DF00A3A4B8 /* ExercisesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD29FB2924E9DF00A3A4B8 /* ExercisesProtocols.swift */; };
+		DECD2A062924F31B00A3A4B8 /* SprintRunning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2A052924F31B00A3A4B8 /* SprintRunning.swift */; };
+		DECD2A082924F42500A3A4B8 /* SimpleJumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2A072924F42500A3A4B8 /* SimpleJumping.swift */; };
+		DECD2A0A2924F5B300A3A4B8 /* LongJumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2A092924F5B300A3A4B8 /* LongJumping.swift */; };
+		DECD2A0D2924F62D00A3A4B8 /* EnduranceRunning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2A0C2924F62D00A3A4B8 /* EnduranceRunning.swift */; };
+		DECD2A102924F6E100A3A4B8 /* LegsExercisesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2A0F2924F6E100A3A4B8 /* LegsExercisesFactory.swift */; };
+		DECD2A1229252B2800A3A4B8 /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2A1129252B2800A3A4B8 /* Jumping.swift */; };
+		DECD2A1429252B3D00A3A4B8 /* Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2A1329252B3D00A3A4B8 /* Running.swift */; };
+		DECD2A182925333B00A3A4B8 /* BodyExercisesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2A172925333B00A3A4B8 /* BodyExercisesFactory.swift */; };
+		DECD2A1A2925338700A3A4B8 /* HandsExercisesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2A192925338700A3A4B8 /* HandsExercisesFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		DECD29EF2924E34400A3A4B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DECD29F22924E34400A3A4B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DECD29F42924E34400A3A4B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECD29FB2924E9DF00A3A4B8 /* ExercisesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesProtocols.swift; sourceTree = "<group>"; };
+		DECD2A052924F31B00A3A4B8 /* SprintRunning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintRunning.swift; sourceTree = "<group>"; };
+		DECD2A072924F42500A3A4B8 /* SimpleJumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJumping.swift; sourceTree = "<group>"; };
+		DECD2A092924F5B300A3A4B8 /* LongJumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongJumping.swift; sourceTree = "<group>"; };
+		DECD2A0C2924F62D00A3A4B8 /* EnduranceRunning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnduranceRunning.swift; sourceTree = "<group>"; };
+		DECD2A0F2924F6E100A3A4B8 /* LegsExercisesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegsExercisesFactory.swift; sourceTree = "<group>"; };
+		DECD2A1129252B2800A3A4B8 /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
+		DECD2A1329252B3D00A3A4B8 /* Running.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Running.swift; sourceTree = "<group>"; };
+		DECD2A172925333B00A3A4B8 /* BodyExercisesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyExercisesFactory.swift; sourceTree = "<group>"; };
+		DECD2A192925338700A3A4B8 /* HandsExercisesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsExercisesFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +89,53 @@
 			children = (
 				DECD29E62924E34300A3A4B8 /* AppDelegate.swift */,
 				DECD29E82924E34300A3A4B8 /* SceneDelegate.swift */,
+				DECD2A0E2924F6C500A3A4B8 /* Factories */,
+				DECD29FA2924E9D100A3A4B8 /* Models */,
 				DECD29EF2924E34400A3A4B8 /* Assets.xcassets */,
 				DECD29F12924E34400A3A4B8 /* LaunchScreen.storyboard */,
 				DECD29F42924E34400A3A4B8 /* Info.plist */,
 			);
 			path = Fitness;
+			sourceTree = "<group>";
+		};
+		DECD29FA2924E9D100A3A4B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DECD29FB2924E9DF00A3A4B8 /* ExercisesProtocols.swift */,
+				DECD2A152925326A00A3A4B8 /* Jumping */,
+				DECD2A162925327700A3A4B8 /* Running */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DECD2A0E2924F6C500A3A4B8 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				DECD2A192925338700A3A4B8 /* HandsExercisesFactory.swift */,
+				DECD2A172925333B00A3A4B8 /* BodyExercisesFactory.swift */,
+				DECD2A0F2924F6E100A3A4B8 /* LegsExercisesFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		DECD2A152925326A00A3A4B8 /* Jumping */ = {
+			isa = PBXGroup;
+			children = (
+				DECD2A1129252B2800A3A4B8 /* Jumping.swift */,
+				DECD2A092924F5B300A3A4B8 /* LongJumping.swift */,
+				DECD2A072924F42500A3A4B8 /* SimpleJumping.swift */,
+			);
+			path = Jumping;
+			sourceTree = "<group>";
+		};
+		DECD2A162925327700A3A4B8 /* Running */ = {
+			isa = PBXGroup;
+			children = (
+				DECD2A1329252B3D00A3A4B8 /* Running.swift */,
+				DECD2A0C2924F62D00A3A4B8 /* EnduranceRunning.swift */,
+				DECD2A052924F31B00A3A4B8 /* SprintRunning.swift */,
+			);
+			path = Running;
 			sourceTree = "<group>";
 		};
 		E4C99D7A44EBE38BB30A0AD4 /* Pods */ = {
@@ -199,8 +261,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DECD2A182925333B00A3A4B8 /* BodyExercisesFactory.swift in Sources */,
+				DECD2A102924F6E100A3A4B8 /* LegsExercisesFactory.swift in Sources */,
 				DECD29E72924E34300A3A4B8 /* AppDelegate.swift in Sources */,
+				DECD2A1A2925338700A3A4B8 /* HandsExercisesFactory.swift in Sources */,
+				DECD2A0D2924F62D00A3A4B8 /* EnduranceRunning.swift in Sources */,
+				DECD29FC2924E9DF00A3A4B8 /* ExercisesProtocols.swift in Sources */,
+				DECD2A0A2924F5B300A3A4B8 /* LongJumping.swift in Sources */,
 				DECD29E92924E34300A3A4B8 /* SceneDelegate.swift in Sources */,
+				DECD2A062924F31B00A3A4B8 /* SprintRunning.swift in Sources */,
+				DECD2A082924F42500A3A4B8 /* SimpleJumping.swift in Sources */,
+				DECD2A1229252B2800A3A4B8 /* Jumping.swift in Sources */,
+				DECD2A1429252B3D00A3A4B8 /* Running.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
